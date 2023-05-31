@@ -69,6 +69,13 @@ public class Cuenta {
     private double saldo;
     private TipoCuenta tipo;
     private String cedula; 
+
+    public Cuenta(int id, double saldo, TipoCuenta tipo, String cedula) {
+        this.id = id;
+        this.saldo = saldo;
+        this.tipo = tipo;
+        this.cedula = cedula;
+    }
     
     
 }
