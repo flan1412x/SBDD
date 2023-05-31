@@ -64,4 +64,6 @@ public class Empleado {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+    
+    private double sueldo;
 }
