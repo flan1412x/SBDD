@@ -12,13 +12,15 @@ public class Empleado {
 
     
       private String cedula, nombre, apellido; 
-      char genero; 
+      char genero;
+      private int edad;
 
-    public Empleado(String cedula, String nombre, String apellido, char genero) {
+    public Empleado(String cedula, String nombre, String apellido, char genero, int edad) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
         this.genero = genero;
+        this.edad = edad;
     }
     
     /**
@@ -62,7 +64,4 @@ public class Empleado {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-  
-    
-   
 }
