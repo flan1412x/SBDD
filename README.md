@@ -1,1 +1,1 @@
-# TallerBD
+# SGBD Grupo2
