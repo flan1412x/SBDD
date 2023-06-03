@@ -1,9 +1,9 @@
-0401859621;Daniel ;Galarza;M;19
-0401859621;Daniel ;Galarza;M;19
-0401859621;Daniel ;Galarza;M;19
-0401859621;Daniel ;Galarza;M;19
-0401859621;Daniel ;Galarza;M;19
-0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
+0401859621;Daniel;Galarza;M;19
 0401849121;Daniel;Galarza;M;20
 0401849121;Daniel;Galarza;M;20
 0401849121;Daniel;Galarza;M;20

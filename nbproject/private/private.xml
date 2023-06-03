@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/TipoCuenta.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/sgbdgit/SGBDGit.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/Cuenta.java</file>
@@ -12,6 +13,13 @@
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Presentacion/GuardarEmpleados.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/Empleado.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Presentacion/GuardarCuentas.java</file>
+=======
+            <file>file:/C:/SBDD/src/Presentacion/GuardarEmpleados.java</file>
+            <file>file:/C:/SBDD/src/Presentacion/ListarEmpleados.java</file>
+            <file>file:/C:/SBDD/src/Entidad/Empleado.java</file>
+            <file>file:/C:/SBDD/src/Presentacion/Menu.java</file>
+            <file>file:/C:/SBDD/src/Entidad/TipoCuenta.java</file>
+>>>>>>> 89925c6e1e441d7f7898f5d14babecc4bce67180
         </group>
     </open-files>
 </project-private>
