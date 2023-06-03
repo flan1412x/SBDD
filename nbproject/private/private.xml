@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-<<<<<<< HEAD
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/TipoCuenta.java</file>
+            <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/sgbdgit/SGBDGit.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/Cuenta.java</file>
+            <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Presentacion/Menu.java</file>
+            <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Presentacion/GuardarEmpleados.java</file>
             <file>file:/C:/Users/GABRIEL/Desktop/SBDD/src/Entidad/Empleado.java</file>
         </group>
     </open-files>
-=======
->>>>>>> 9d5506a53bedb47753733075a26748bc9009ebbf
 </project-private>
