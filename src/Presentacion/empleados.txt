@@ -1,0 +1,6 @@
+0401859618;Daniel;Galarza;M;30
+0401589562;Marco;Nuñez;M;45
+1895625984;Jorge;Altamirano;M;45
+1785496523;Manuela;Uribe;F;19
+1785474101;Estefania;Perez;F;22
+1598784562;Maria;Lopez;F;26

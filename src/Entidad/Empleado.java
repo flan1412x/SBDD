@@ -10,9 +10,9 @@ package Entidad;
  */
 public class Empleado {
 
-    
+   
       private String cedula, nombre, apellido; 
-      char genero;
+      private char genero;
       private int edad;
 
     public Empleado(String cedula, String nombre, String apellido, char genero, int edad) {
@@ -21,6 +21,10 @@ public class Empleado {
         this.apellido = apellido;
         this.genero = genero;
         this.edad = edad;
+    }
+
+    public Empleado() {
+
     }
     
     /**
@@ -63,6 +67,34 @@ public class Empleado {
      */
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+    
+     /**
+     * @return the genero
+     */
+    public char getGenero() {
+        return genero;
+    }
+
+    /**
+     * @param genero the genero to set
+     */
+    public void setGenero(char genero) {
+        this.genero = genero;
+    }
+
+    /**
+     * @return the edad
+     */
+    public int getEdad() {
+        return edad;
+    }
+
+    /**
+     * @param edad the edad to set
+     */
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
     
     private double sueldo;
