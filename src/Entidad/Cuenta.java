@@ -9,7 +9,20 @@ package Entidad;
  * @author 1214k
  */
 public class Cuenta {
+    
+    public int id;
+    public double saldo;
+    public TipoCuenta tipo;
+    public String cedula; 
 
+    public Cuenta(int id, double saldo, TipoCuenta tipo, String cedula) {
+        this.id = id;
+        this.saldo = saldo;
+        this.tipo = tipo;
+        this.cedula = cedula;
+    }
+    
+    public Cuenta(){};
     /**
      * @return the id
      */
@@ -65,17 +78,5 @@ public class Cuenta {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
-    private int id;
-    private double saldo;
-    private TipoCuenta tipo;
-    private String cedula; 
-
-    public Cuenta(int id, double saldo, TipoCuenta tipo, String cedula) {
-        this.id = id;
-        this.saldo = saldo;
-        this.tipo = tipo;
-        this.cedula = cedula;
-    }
-    
-    
+   
 }
