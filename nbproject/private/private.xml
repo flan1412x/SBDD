@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/SBDD/src/Presentacion/GuardarEmpleados.java</file>
+            <file>file:/C:/SBDD/src/Presentacion/ListarEmpleados.java</file>
             <file>file:/C:/SBDD/src/Entidad/Empleado.java</file>
+            <file>file:/C:/SBDD/src/Presentacion/Menu.java</file>
             <file>file:/C:/SBDD/src/Entidad/TipoCuenta.java</file>
         </group>
     </open-files>
-=======
->>>>>>> 9d5506a53bedb47753733075a26748bc9009ebbf
-=======
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Presentacion/CRUDEmpleados.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Presentacion/Menu.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Entidad/Empleado.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Entidad/TipoCuenta.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Presentacion/CRUDCuentas.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Presentacion/GuardarEmpleados.java</file>
-            <file>file:/C:/Users/1214k/OneDrive/Documentos/NetBeansProjects/SGBDGit/src/Presentacion/GuardarCuentas.java</file>
-        </group>
-    </open-files>
->>>>>>> 99e4358d3b3522f900c57da70b245fc0fb9ac5be
 </project-private>
