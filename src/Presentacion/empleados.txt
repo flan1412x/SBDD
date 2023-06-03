@@ -1,6 +1,27 @@
-0401859618;Daniel;Galarza;M;30
-0401589562;Marco;Nuñez;M;45
-1895625984;Jorge;Altamirano;M;45
-1785496523;Manuela;Uribe;F;19
-1785474101;Estefania;Perez;F;22
-1598784562;Maria;Lopez;F;26
+0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel ;Galarza;M;19
+0401859621;Daniel ;Galarza;M;19
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+0401849121;Daniel;Galarza;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1515;DA;D;M;20
+1234567890;Gabriel;Pico;M;30
