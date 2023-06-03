@@ -13,22 +13,21 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Munir
+ * @author GABRIEL
  */
-public class Listar_Empleados extends javax.swing.JFrame {
-    
+public class Listar_Cuentas extends javax.swing.JFrame {
+
     DefaultTableModel md1tabla;
     Vector vcabeceras = new Vector();
     /**
-     * Creates new form Listar_Empleados
+     * Creates new form Listar_Cuentas
      */
-    public Listar_Empleados() {
+    public Listar_Cuentas() {
         initComponents();
+        vcabeceras.addElement("Id");
+        vcabeceras.addElement("Saldo");
+        vcabeceras.addElement("Tipo");
         vcabeceras.addElement("Cedula");
-        vcabeceras.addElement("Nombre");
-        vcabeceras.addElement("Apellido");
-        vcabeceras.addElement("Genero");
-        vcabeceras.addElement("Edad");
         md1tabla = new DefaultTableModel(vcabeceras,0);
         jTable1.setModel(md1tabla);
     }
@@ -83,24 +82,22 @@ public class Listar_Empleados extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 668, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 714, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton1)
                         .addGap(18, 18, 18)
                         .addComponent(jButton2)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addContainerGap(11, Short.MAX_VALUE))
         );
 
         pack();
@@ -108,7 +105,8 @@ public class Listar_Empleados extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        jTable1.setModel(listarEmpleados());
+        // TODO add your handling code here:
+        jTable1.setModel(listarCuentas());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -117,16 +115,17 @@ public class Listar_Empleados extends javax.swing.JFrame {
         setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
- public DefaultTableModel listarEmpleados(){
+
+    
+    public DefaultTableModel listarCuentas(){
         Vector cabeceras = new Vector();
+        cabeceras.addElement("Id");
+        cabeceras.addElement("Saldo");
+        cabeceras.addElement("Tipo");
         cabeceras.addElement("Cedula");
-        cabeceras.addElement("Nombre");
-        cabeceras.addElement("Apellido");
-        cabeceras.addElement("Genero");
-        cabeceras.addElement("Edad");
         DefaultTableModel md1tabla= new DefaultTableModel(cabeceras,0);
         try{
-            FileReader fr = new FileReader("src//Presentacion//empleados.txt/");
+            FileReader fr = new FileReader("src//Presentacion//cuentas.txt/");
             BufferedReader br = new BufferedReader(fr);
             String d;
             while ((d= br.readLine())!=null) {
@@ -162,20 +161,20 @@ public class Listar_Empleados extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Listar_Empleados.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Listar_Cuentas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Listar_Empleados.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Listar_Cuentas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Listar_Empleados.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Listar_Cuentas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Listar_Empleados.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Listar_Cuentas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Listar_Empleados().setVisible(true);
+                new Listar_Cuentas().setVisible(true);
             }
         });
     }
